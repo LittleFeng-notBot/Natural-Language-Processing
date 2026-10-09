@@ -1,0 +1,17 @@
+# 虚拟环境与缓存
+.venv/
+__pycache__/
+.DS_Store
+
+# 大体积资源（运行前按 README 下载，不入库）
+data/glove/
+data/bert-base-uncased/
+
+# 运行生成的派生文件（可由脚本重新生成）
+data/nyt_train.csv
+data/nyt_val.csv
+data/nyt_test.csv
+data/word2vec_*.model
+
+# 报告排版源文件（成品 PDF 位于仓库根目录）
+report/

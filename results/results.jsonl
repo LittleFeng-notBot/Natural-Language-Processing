@@ -1,0 +1,6 @@
+{"task": "Task1", "method": "Binary Bag of Words", "accuracy": 0.981786643538595, "macro_f1": 0.9537582202142184, "vocab_size": 66266}
+{"task": "Task1", "method": "Word Frequency", "accuracy": 0.9809193408499567, "macro_f1": 0.954150910868378, "vocab_size": 66266}
+{"task": "Task2", "method": "Pre-trained GloVe (100d)", "accuracy": 0.9800520381613183, "macro_f1": 0.9483620805510137}
+{"task": "Task2", "method": "Word2Vec on AG News (100d)", "accuracy": 0.9800520381613183, "macro_f1": 0.9503851034292915}
+{"task": "Task2", "method": "Word2Vec on NYT (100d)", "accuracy": 0.9774501300954033, "macro_f1": 0.9444738018102582}
+{"task": "Task3", "method": "BERT-base-uncased (fine-tuned)", "accuracy": 0.9774501300954033, "macro_f1": 0.9522348486418309, "max_length": 64, "epochs": 3, "batch_size": 32, "lr": 2e-05}
